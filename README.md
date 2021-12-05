@@ -1,20 +1,20 @@
 # Portfolio Website.
 Web Portfolio to showcase projects and skills in better manner. 
 
-**If you enjoy this project, please consider [supporting me](https://www.paypal.me/vinaysomawat) to continue developing and maintaining it.**
+<!-- **If you enjoy this project, please consider [supporting me](https://www.paypal.me/vinaysomawat) to continue developing and maintaining it.** -->
 
-[![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/vinaysomawat)
+<!-- [![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/vinaysomawat) -->
 
-###### https://vinaysomawat.github.io/
+<!-- ###### https://vinaysomawat.github.io/ -->
 
-![Image](https://github.com/vinaysomawat/vinaysomawat.github.io/blob/master/vinaysomawatgithubio.gif)
+<!-- ![Image](https://github.com/vinaysomawat/vinaysomawat.github.io/blob/master/vinaysomawatgithubio.gif) -->
 ### About me
 * Competitive Programming Page
 * Web Designing Page
 * Software Development Page
 * Android Application Page
 * Technical Writing Page
-* Machine Learning Page
+<!-- * Machine Learning Page -->
 * Open Source Page
 
 ### Hire Me banner
@@ -45,7 +45,7 @@ Web Portfolio to showcase projects and skills in better manner.
 
 #### To contribute to the project:
 
-1. Choose any open issue from [here](https://github.com/vinaysomawat/vinaysomawat.github.io/issues). 
+1. Choose any open issue from [here](https://github.com/1arshan/arshan-portfolio/issues). 
 2. Comment on the issue: `Can I work on this?` and get assigned.
 3. Make changes to your fork and send a PR.
 
