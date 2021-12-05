@@ -34,7 +34,7 @@ Web Portfolio to showcase projects and skills in better manner.
 
 1. Click on `Fork`
 2. Rename your repo `yourgithubpseudo.github.io`
-3. Clone your fork `git clone https://github.com/yourgithubpseudo/yourgithubpseudo.github.io.git`
+3. Clone your fork `git clone https://github.com/1arshan/arshan-portfolio`
 4. Modify the `.html` files.
 
 #### To setup the project and contribute on your local machine:
