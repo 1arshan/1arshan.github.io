@@ -50,7 +50,7 @@
                          <li><a href="#" data-nav-section="link">Link</a></li>
                         <li><a href="#" data-nav-section="education">Education</a></li>
                         <li><a href="#" data-nav-section="skills">Skills</a></li>
-                        <li><a href="#" data-nav-section="internships">Internships</a></li>
+                        <li><a href="#" data-nav-section="internships">Experience</a></li>
                         <li><a href="#" data-nav-section="projects">Projects</a></li>
                          <li><a href="#" data-nav-section="certificates">Certificates</a></li>
                         <li><a href="#" data-nav-section="contact">Contact</a></li>
@@ -208,7 +208,7 @@
                         <div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
                            <div class="progress-wrap">
                               <strong>
-                                 <a href="https://drive.google.com/file/d/1aoD1JanxscZ5MfofBafGw1TBmKf8Dq_i/view?usp=sharing">
+                                 <a href="https://drive.google.com/file/d/1ftqwR6v9Wg0el3U8DcH7Wccq4w848KvW/view?usp=share_link">
                                     <p style="color:darkorange">Resume</p>
                                  </a>
                               </strong>
@@ -436,14 +436,72 @@
                      <div class="row">
                         <div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
                            <div class="about-desc">
-                            <h1>Internships <span style="color: #f9bf3f"></span></h1>
+                            <h1>Experience <span style="color: #f9bf3f"></span></h1>
                             </div>
                         </div>
                      </div>
                      <div class="row">
                         <div class="col-md-12">
                            <div class="timeline-centered">
-                               <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                              <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                                 <div class="timeline-entry-inner">
+                                    <div class="timeline-icon color-1">
+                                       <i class="fa fa-code"></i>
+                                    </div>
+                                    <div class="timeline-label">
+                                       <h2><a href="#">THE TARZAN WAY</a> <span> September 2022 – </span></h2>
+                                       <p ><strong>Software Development Engineer</strong><br></p>
+                                          <details style="align-content: normal">
+                                             <summary > <p style="color:blue;cursor:pointer;">more detail &#9662</p></summary>
+                                                <p style="padding-top:2px"><ul>
+                                            <li>Integrated TBO’s FLIGHT and BUS API to allow bus and flight booking directly from the website which help in increasing
+overall traffic on the website.</li>
+                                            <li>Used Redis for caching responses of TBO Flight and Bus API to reduce response time in pagination and when filtering result
+from 1 second to under 0.1 second.</li>
+                                            <li>Used Celery to do high response taking task Asynchronously to reduce response time</li>
+                                            <li>Used Project Lab (python library) to generate PDF dynamically using user’s data.</li>
+                                            <div class="mb-0">
+                                            <li>Tech Stack :
+                                                <span class='badge badge-secondary'>Django</span>
+                                                <span class='badge badge-secondary'>Celery</span>
+                                                <span class='badge badge-secondary'>Redis</span>
+                                                <span class='badge badge-secondary'>PostgreSQL</span>
+                                                <span class='badge badge-secondary'>Project lab</span>
+                                            </div>
+                                            </li>
+                                        </ul></p>
+                                       </details>
+                                    </div>
+                                 </div>
+                              </article>
+                              <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+                                 <div class="timeline-entry-inner">
+                                    <div class="timeline-icon color-1">
+                                       <i class="fa fa-code"></i>
+                                    </div>
+                                    <div class="timeline-label">
+                                       <h2><a href="#">THE TARZAN WAY</a> <span> Feburary 2022 – July 2022</span></h2>
+                                       <p ><strong>Software Development Engineer Intern</strong><br></p>
+                                          <details style="align-content: normal">
+                                             <summary > <p style="color:blue;cursor:pointer;">more detail &#9662</p></summary>
+                                                <p style="padding-top:2px"><ul>
+                                            <li>Integrated Payment Gateway, CashFree with the backend to handle payment directly from the websites.</li>
+                                            <li>Opensourced a python package with name django-search-array-field . This package allow postgresql array field to work as a
+dynamic autosugesstion box in django admin panel.</li>
+                                            <li>Using JavaScript created a suggestion box which make APIrequest continuously and show suggestion.</li>
+                                            <li>Used form-set to create multiple form which allow to make different type of booking on same page.</li>
+                                            <div class="mb-0">
+                                            <li>Tech Stack :
+                                                <span class='badge badge-secondary'>Django Rest Framework</span>
+                                                <span class='badge badge-secondary'>Javascript</span>
+                                            </div>
+                                            </li>
+                                        </ul></p>
+                                       </details>
+                                    </div>
+                                 </div>
+                              </article> 
+                              <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
                                  <div class="timeline-entry-inner">
                                     <div class="timeline-icon color-1">
                                        <i class="fa fa-code"></i>
@@ -454,7 +512,7 @@
                                           Project which aim at making cloud simulations available for everyone, regardless
                                           of their system hardware.</p>
                                           <details style="align-content: normal">
-                                             <summary > <p style="color:blue;">more detail &#9662</p></summary>
+                                             <summary > <p style="color:blue;cursor:pointer;">more detail &#9662</p></summary>
                                                 <p style="padding-top:2px"><ul>
                                             <li>Created docker-compose.yml file to set up development environment using
                                                 DockerFiles on a single command.</li>
@@ -490,7 +548,7 @@
                                            and also handle their cloud.
                                        </p>
                                        <details style="align-content: normal">
-                                             <summary ><p style="color:blue;">more detail &#9662</summary>
+                                             <summary ><p style="color:blue;cursor:pointer;">more detail &#9662</summary>
                                                 <p style="padding-top:2px"><ul>
                                         <li>Use CELERY to do all time-consuming task such as email and sms sending
                                             asynchronously, which help in reducing response time from 3s to under 0.5s.</li>
